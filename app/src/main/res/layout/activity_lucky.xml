@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".lucky">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/introrustgbase2line"
+            android:text="Want More Apps?
+\nHow About Hacking Them
+\nOn Your Own
+\n
+
+
+\nBy Using This Tool You Can
+\nHack Apps On Your Own
+
+\nWhat Do I Mean By
+\nHacking Them?
+\n
+
+
+
+\nHacking Here Basically Means
+\nModifying Them
+
+\nFor Example:
+\nYou Can Mod Any App To Skip
+\nThe In-App Purchase And
+\nBypass IT In Short Faking
+\nthe Payment.
+\nI will Leave the Tool Down
+\nHere.Go To The Website Given
+\nBelow To Learn On
+\nHow To Use It:"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/button21"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="46dp"
+            android:layout_marginBottom="13dp"
+            android:background="@drawable/lucky"
+            android:onClick="browser1"
+            android:text=""
+            app:layout_constraintBottom_toTopOf="@+id/button22"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/introrustgbase2line"
+            android:text="THEHACKSTORE"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView16"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/website"
+            android:onClick="browser2"
+            android:text=""
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
